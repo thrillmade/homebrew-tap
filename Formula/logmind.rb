@@ -8,6 +8,7 @@ class Logmind < Formula
   license "MIT"
   head "https://github.com/thrillmade/logmind.git", branch: "main"
 
+  depends_on "libyaml"
   depends_on "python@3.12"
 
   resource "click" do
