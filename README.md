@@ -7,7 +7,7 @@ Homebrew formulas for the [thrillmade](https://github.com/thrillmade) SkDD devel
 Install the full SkDD toolchain (logmind + clud-bug + baseline skills) in one command:
 
 ```bash
-brew install thrillmade/tap/skdd-toolchain
+brew install thrillmade/tap/skdd
 ```
 
 Then in any repo:
@@ -30,7 +30,7 @@ If you only want one tool:
 ```bash
 brew install thrillmade/tap/logmind     # Python decision-log CLI
 brew install thrillmade/tap/clud-bug    # Skill-driven PR review
-brew install thrillmade/tap/skdd-toolchain  # Meta — installs both above
+brew install thrillmade/tap/skdd        # Meta — installs both above
 ```
 
 ## What's in the toolchain
