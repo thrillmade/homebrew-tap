@@ -2,7 +2,7 @@ class Skdd < Formula
   desc "Production SkDD toolchain — logmind + clud-bug + baseline skills"
   homepage "https://logmind.dev"
   url "https://github.com/thrillmade/homebrew-tap/archive/refs/tags/skdd-0.1.0.tar.gz"
-  sha256 "PLACEHOLDER_AFTER_TAG_PUSH"
+  sha256 "ffbc96487f339db9a6dbaf6216e1d1f141d0071fb283043ee0e8cbbfd886a516"
   license "MIT"
 
   depends_on "thrillmade/tap/clud-bug"
