@@ -2,8 +2,7 @@ class SkddToolchain < Formula
   desc "Production SkDD toolchain — logmind + clud-bug + baseline skills"
   homepage "https://logmind.dev"
   url "https://github.com/thrillmade/homebrew-tap/archive/refs/tags/skdd-toolchain-0.1.0.tar.gz"
-  # SHA computed after the tag is pushed; placeholder until then.
-  sha256 "PLACEHOLDER_AFTER_TAG_PUSH"
+  sha256 "80c467089b69d552140617053095a1ede41c48355efd25eaafd6e6146567776d"
   license "MIT"
   version "0.1.0"
 
