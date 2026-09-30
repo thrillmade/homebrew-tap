@@ -1,0 +1,26 @@
+name: ci
+
+# Org-wide required check (thrillmade "CI must pass" ruleset): a status
+# check literally named `ci` must succeed before a PR can merge into this
+# repo's default branch. This repo has no `.github/workflows` at all today
+# — no build, test or lint of the Formula/Cask Ruby files. This is a
+# placeholder that always succeeds so PRs (including Dependabot's) stop
+# waiting forever on a check that doesn't exist.
+#
+# Replace this with a job that actually checks the Formula/Cask files
+# (e.g. `brew audit` / `brew style`) once that's wanted.
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  ci:
+    name: ci
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder
+        run: |
+          echo "Placeholder: this repo has no checks yet. Add real checks and make this job wait for them."
